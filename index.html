@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Termografia, fotogrammetria e ispezioni con drone | Nevaproject</title>
+<meta name="description" content="Termografia di impianti fotovoltaici e coperture, fotogrammetria e ispezioni con drone in tutta Italia. Base in provincia di Milano, oltre 3.000 impianti rilevati.">
+<link rel="canonical" href="https://nevaproject.it/">
+<meta name="theme-color" content="#0B1424">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Nevaproject">
+<meta property="og:title" content="Nevaproject — Termografia, fotogrammetria e ispezioni con drone">
+<meta property="og:description" content="Termografia, fotogrammetria e ispezioni con drone in tutta Italia. 10 anni di esperienza, oltre 3.000 impianti rilevati.">
+<meta property="og:url" content="https://nevaproject.it/">
+<meta property="og:image" content="https://nevaproject.it/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preload" href="assets/fonts/archivo-latin-wdth.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/hero-fv-1600.webp" imagesrcset="assets/img/hero-fv-800.webp 800w, assets/img/hero-fv-1600.webp 1600w, assets/img/hero-fv-2400.webp 2400w" imagesizes="100vw">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Nevaproject",
+  "legalName": "Nevaproject di Francesco Fabbri",
+  "url": "https://nevaproject.it/",
+  "logo": "https://nevaproject.it/assets/logo.png",
+  "image": "https://nevaproject.it/assets/og-image.jpg",
+  "description": "Rilievi tecnici con drone in tutta Italia: termografia radiometrica di impianti fotovoltaici e coperture, fotogrammetria con ortofoto, modelli 3D e volumetrie, ispezioni di tetti e strutture. Operatore UAS registrato ENAC, base in provincia di Milano.",
+  "slogan": "Dall'alto, con metodo.",
+  "founder": {"@type": "Person", "name": "Francesco Fabbri"},
+  "telephone": "+39 393 111 0149",
+  "email": "info@nevaproject.it",
+  "vatID": "IT11216430964",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Eugenio Villoresi 47",
+    "postalCode": "20011",
+    "addressLocality": "Corbetta",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "areaServed": {"@type": "Country", "name": "Italia"},
+  "geo": {"@type": "GeoCoordinates", "latitude": 45.4686, "longitude": 8.9110},
+  "knowsAbout": ["Termografia aerea", "Fotogrammetria con drone", "Ispezioni con drone", "Ortofoto", "Modelli 3D", "Ispezione impianti fotovoltaici"],
+  "makesOffer": [
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Termografia aerea con drone"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fotogrammetria e rilievi 3D con drone"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ispezioni tecniche con drone"}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Serve un'autorizzazione per far volare il drone sul mio sito?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Dipende dall'area e dal tipo di operazione. Verifichiamo noi su D-Flight vincoli e zone geografiche, presentiamo le dichiarazioni necessarie e, se serve, ci coordiniamo con ENAV. Tu non devi occuparti di nulla."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "In che condizioni si può fare una termografia?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "La termografia richiede condizioni precise: per gli impianti fotovoltaici serve cielo sereno e un irraggiamento sufficiente, per gli edifici una differenza di temperatura tra interno ed esterno. Pianifichiamo il volo nella finestra meteo giusta."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "In che formato ricevo i dati?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In qualsiasi formato ti serva: ortofoto e modelli altimetrici georeferenziati, nuvole di punti e modelli 3D per CAD, BIM e GIS, termogrammi radiometrici, report in PDF. Lo concordiamo prima del volo."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Con quale attrezzatura lavorate?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Voliamo con camera RGB ad alta risoluzione e termocamera radiometrica, e abbiamo disponibilità di mezzi e sensori per qualsiasi lavoro di termografia, fotogrammetria e ispezione. Scegliamo l'attrezzatura in base al rilievo."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Quanto tempo serve per avere i risultati?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Dipende dall'estensione dell'area e dal tipo di elaborazione. Date di volo e di consegna sono scritte nel preventivo."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Dove operate?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In tutta Italia. La nostra base è in provincia di Milano e ci spostiamo dove si trova il tuo sito."
+   }
+  }
+ ]
+}
+</script>
+
+<style>
+  @font-face{
+    font-family:'Archivo';font-style:normal;font-weight:100 900;font-stretch:62% 125%;font-display:swap;
+    src:url('assets/fonts/archivo-latin-wdth.woff2') format('woff2');
+  }
+  :root{
+    --night:#0B1424;     /* blu notte: nav, hero, footer */
+    --blue:#1E3FA8;      /* blu del logo */
+    --blue-ink:#13296E;
+    --paper:#F5F6F8;
+    --rule:#D8DDE6;
+    --text:#121A2B;
+    --muted:#535E73;
+    --heat:#FF6B1A;      /* arancio termico: solo per misure e scansione */
+    --nav-h:88px;
+    --gut:clamp(20px,5vw,64px);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h)}
+  body{
+    font-family:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif;font-stretch:100%;
+    color:var(--text);background:#fff;font-size:17px;line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{margin:0;font-weight:700;font-stretch:112%;letter-spacing:-0.015em;line-height:1.08}
+  h2{font-size:clamp(30px,3.6vw,48px);text-wrap:balance}
+  h3{font-size:clamp(22px,2vw,28px);line-height:1.2}
+  p{margin:0}
+  a{color:inherit}
+  img{display:block;max-width:100%}
+  ul{margin:0;padding:0;list-style:none}
+  :focus-visible{outline:2px solid var(--heat);outline-offset:3px}
+  .skip{position:absolute;left:16px;top:-60px;z-index:100;background:#fff;color:var(--text);padding:10px 16px;border-radius:4px;font-weight:600}
+  .skip:focus{top:12px}
+  .wrap{max-width:1280px;margin:0 auto;padding-inline:var(--gut)}
+  .num{font-variant-numeric:tabular-nums}
+  .lede{font-size:clamp(18px,1.4vw,20px);color:var(--muted);max-width:56ch}
+
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    min-height:48px;padding:0 24px;border-radius:4px;border:1px solid transparent;
+    font:600 15px/1 'Archivo',sans-serif;text-decoration:none;cursor:pointer;
+    transition:background-color .15s,border-color .15s,color .15s;
+  }
+  .btn-light{background:#fff;color:var(--night)}
+  .btn-light:hover{background:#E6EAF2}
+  .btn-line{color:#fff;border-color:rgba(255,255,255,.45)}
+  .btn-line:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+
+  /* ===== NAV ===== */
+  .nav{position:sticky;top:0;z-index:50;background:var(--night);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+  .nav-inner{display:flex;align-items:center;gap:40px;height:var(--nav-h)}
+  .logo img{height:60px;width:auto}
+  .nav-links{display:flex;gap:32px;margin-left:auto}
+  .nav-links a{font-size:15px;font-weight:500;text-decoration:none;color:rgba(255,255,255,.8);padding:8px 0}
+  .nav-links a:hover{color:#fff}
+  .nav-toggle{display:none}
+
+  /* ===== HERO: foto aerea con banda di scansione termica ===== */
+  @property --scan{syntax:'<percentage>';inherits:true;initial-value:76%}
+  .hero{position:relative;min-height:min(860px,calc(100svh - var(--nav-h)));display:flex;align-items:flex-end;color:#fff;background:var(--night);overflow:hidden;--scan:76%}
+  .hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .hero-img.ir{filter:url(#f-thermal) saturate(1.15);clip-path:inset(0 calc(100% - var(--scan) - 11%) 0 calc(var(--scan) - 11%))}
+  .scan-edge{position:absolute;top:0;bottom:0;width:1px;background:var(--heat);opacity:.9;pointer-events:none}
+  .scan-edge.l{left:calc(var(--scan) - 11%)}
+  .scan-edge.r{left:calc(var(--scan) + 11%)}
+  .scan-tag{
+    position:absolute;top:24px;left:calc(var(--scan) - 11%);margin-left:12px;
+    font-size:13px;font-weight:600;color:#fff;background:rgba(11,20,36,.82);padding:6px 10px;border-radius:3px;white-space:nowrap
+  }
+  .hero.sweep{animation:sweep 2.6s cubic-bezier(.65,0,.35,1) .3s both}
+  @keyframes sweep{from{--scan:-12%}to{--scan:76%}}
+  /* velo scuro a sinistra: serve solo a leggere il testo sopra la foto */
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,20,36,.9) 0%,rgba(11,20,36,.55) 42%,rgba(11,20,36,0) 70%),linear-gradient(0deg,rgba(11,20,36,.7),rgba(11,20,36,0) 45%);pointer-events:none}
+  .hero-content{position:relative;z-index:2;padding-block:120px 72px;width:100%}
+  .hero h1{font-size:clamp(34px,6.4vw,104px);font-stretch:118%;letter-spacing:-0.025em;line-height:.98;white-space:nowrap}
+  .hero-kicker{display:block;margin-bottom:18px;font-size:clamp(13px,1.1vw,15px);font-weight:600;font-stretch:100%;letter-spacing:.1em;text-transform:uppercase;line-height:1.4;white-space:normal;color:rgba(255,255,255,.82)}
+  .hero-sub{margin-top:28px;font-size:clamp(18px,1.5vw,21px);color:rgba(255,255,255,.86);max-width:44ch}
+  .hero-actions{margin-top:36px;display:flex;gap:12px;flex-wrap:wrap}
+  .hero-geo{position:absolute;right:var(--gut);bottom:28px;z-index:2;font-size:13px;color:rgba(255,255,255,.88);text-align:right;line-height:1.5;background:rgba(11,20,36,.72);padding:8px 12px;border-radius:3px}
+
+  /* ===== CREDENZIALI ===== */
+  .creds{border-bottom:1px solid var(--rule)}
+  .creds ul{display:grid;grid-template-columns:repeat(4,1fr)}
+  .creds li{padding:32px 24px 32px 0;font-size:15px;color:var(--muted);line-height:1.4}
+  .creds li + li{padding-left:24px;border-left:1px solid var(--rule)}
+  .creds strong{display:block;color:var(--text);font-size:clamp(26px,2.6vw,36px);font-weight:700;font-stretch:112%;letter-spacing:-0.02em;line-height:1.1;margin-bottom:6px}
+
+  /* ===== SERVIZI ===== */
+  .services{padding-block:120px 72px}
+  .sec-head{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:64px}
+  .service{display:grid;grid-template-columns:5fr 6fr;gap:clamp(32px,5vw,80px);align-items:center;padding-block:48px;border-top:1px solid var(--rule)}
+  .service figure{margin:0;aspect-ratio:4/3;overflow:hidden;border-radius:4px;background:var(--night)}
+  .service figure img{width:100%;height:100%;object-fit:cover}
+  .service .kind{font-size:14px;font-weight:600;color:var(--blue);margin-bottom:12px}
+  .service p{margin-top:16px;color:var(--muted);max-width:54ch}
+  .service .kind + h3{margin-top:0}
+  .deliver{margin-top:24px;display:flex;flex-wrap:wrap;gap:8px}
+  .samples{grid-column:1/-1;margin-top:8px}
+  .samples-t{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
+  .samples ul{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .samples a[data-lb]{display:block;aspect-ratio:8/5;overflow:hidden;border:1px solid var(--rule);border-radius:3px;background:var(--paper);cursor:zoom-in}
+  .samples img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .3s}
+  .samples a[data-lb]:hover img{transform:scale(1.03)}
+  .samples li p{margin-top:12px;font-size:15px;color:var(--muted);line-height:1.5}
+  .samples li b{display:block;color:var(--text);font-weight:600}
+  .samples-note{margin-top:18px;font-size:13px;color:var(--muted)}
+  .samples-note a{color:inherit}
+  .lb{border:none;padding:0;background:transparent;max-width:min(1400px,94vw);max-height:92vh;margin:auto}
+  .lb::backdrop{background:rgba(11,20,36,.88)}
+  .lb img{display:block;max-width:100%;max-height:88vh;width:auto;height:auto;margin:auto}
+  .lb button{position:fixed;top:16px;right:16px;width:44px;height:44px;border-radius:4px;border:1px solid rgba(255,255,255,.4);background:var(--night);color:#fff;font-size:22px;cursor:pointer}
+  .deliver li{font-size:14px;font-weight:500;padding:6px 12px;border:1px solid var(--rule);border-radius:3px;background:var(--paper)}
+  .service .more{display:inline-block;margin-top:18px;padding:10px 0;font-weight:600;color:var(--blue);text-underline-offset:4px}
+  .service .more:hover{color:var(--blue-ink)}
+  .thermal{filter:url(#f-thermal) saturate(1.1)}
+  .thermal-roof{filter:url(#f-thermal-roof)}
+  .dsm{filter:url(#f-dsm)}
+
+  /* ===== CONFRONTO ===== */
+  .compare-sec{background:var(--night);color:#fff;padding-block:112px}
+  .compare-sec .lede{color:rgba(255,255,255,.75)}
+  .compare-head{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:48px}
+  .figures{display:flex;gap:48px;margin-top:28px}
+  .figures div{font-size:14px;color:rgba(255,255,255,.7)}
+  .figures b{display:block;font-size:34px;font-weight:700;font-stretch:112%;color:#fff;letter-spacing:-0.02em}
+  .compare{position:relative;aspect-ratio:16/8;overflow:hidden;border-radius:4px;--pos:50%;touch-action:pan-y}
+  .compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;user-select:none;-webkit-user-drag:none}
+  .compare .rgb{clip-path:inset(0 0 0 var(--pos))}
+  .compare-sep{position:absolute;top:0;bottom:0;left:var(--pos);width:2px;margin-left:-1px;background:#fff;z-index:3;pointer-events:none}
+  .compare-knob{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:#fff;color:var(--night);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+  .compare input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;z-index:4}
+  .compare input:focus-visible ~ .compare-sep .compare-knob{outline:3px solid var(--heat);outline-offset:3px}
+  .compare .lbl{position:absolute;bottom:16px;z-index:3;font-size:13px;font-weight:600;background:rgba(11,20,36,.82);padding:6px 10px;border-radius:3px;pointer-events:none}
+  .compare .lbl.l{left:16px}
+  .compare .lbl.r{right:16px}
+
+  /* ===== SETTORI ===== */
+  .sectors{padding-block:120px;background:var(--paper)}
+  .sector-list{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:48px;border-top:1px solid var(--rule)}
+  .sector-list li{padding:28px 24px 0 0}
+  .sector-list li + li{padding-left:24px;border-left:1px solid var(--rule)}
+  .sector-list h3{font-size:18px;font-stretch:105%}
+  .sector-list p{margin-top:10px;font-size:15.5px;color:var(--muted)}
+
+  /* ===== FAQ ===== */
+  .faq{padding-block:120px;background:var(--paper)}
+  .faq-inner{display:grid;grid-template-columns:1fr 1.6fr;gap:clamp(32px,6vw,96px);align-items:start}
+  .faq-list{border-top:1px solid var(--rule)}
+  .faq details{border-bottom:1px solid var(--rule)}
+  .faq summary{cursor:pointer;list-style:none;padding:22px 40px 22px 0;font-weight:600;font-size:18px;position:relative}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"";position:absolute;right:6px;top:50%;width:10px;height:10px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:translateY(-70%) rotate(45deg);transition:transform .2s}
+  .faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+  .faq details p{padding:0 40px 24px 0;color:var(--muted);max-width:62ch}
+
+  /* ===== METODO ===== */
+  .process{padding-block:120px}
+  .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;counter-reset:s;margin:56px 0 0;padding:0;list-style:none}
+  .steps li{counter-increment:s;padding:28px 24px 0 0;border-top:2px solid var(--text)}
+  .steps li::before{content:counter(s);display:block;font-size:15px;font-weight:700;color:var(--blue);margin-bottom:16px;font-variant-numeric:tabular-nums}
+  .steps h3{font-size:19px;font-stretch:105%}
+  .steps p{margin-top:10px;font-size:15.5px;color:var(--muted)}
+
+  /* ===== ESEMPI ===== */
+  .examples{padding-block:0 120px}
+  .gal{display:grid;grid-template-columns:repeat(12,1fr);gap:40px 24px}
+  .gal figure{margin:0}
+  .gal .ph{overflow:hidden;border-radius:4px;background:var(--night)}
+  .gal img{width:100%;height:100%;object-fit:cover}
+  .gal figcaption{margin-top:12px;font-size:15px;font-weight:600}
+  .gal figcaption span{display:block;font-weight:400;font-size:14px;color:var(--muted)}
+  .g1{grid-column:span 7}.g1 .ph{aspect-ratio:16/10}
+  .g2{grid-column:span 5}.g2 .ph{aspect-ratio:4/3.1}
+  .g3,.g4,.g5{grid-column:span 4}.g3 .ph,.g4 .ph,.g5 .ph{aspect-ratio:4/3}
+
+  /* ===== CONTATTI ===== */
+  .contact{background:var(--blue);color:#fff;padding-block:112px}
+  .contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,96px);align-items:start}
+  .contact .lede{color:rgba(255,255,255,.88);margin-top:20px}
+  .ways{border-top:1px solid rgba(255,255,255,.3);font-style:normal}
+  .ways a,.ways .row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;border-bottom:1px solid rgba(255,255,255,.3);text-decoration:none;color:#fff}
+  .ways a:hover .v{text-decoration:underline;text-underline-offset:4px}
+  .ways .k{font-size:14px;color:rgba(255,255,255,.8)}
+  .ways .v{font-size:clamp(19px,1.8vw,24px);font-weight:600;font-stretch:108%;text-align:right}
+
+  /* ===== FOOTER ===== */
+  footer{background:var(--night);color:rgba(255,255,255,.7);padding-block:64px 28px;font-size:14.5px}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:48px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.12)}
+  .foot-grid img{height:44px;width:auto;margin-bottom:18px}
+  .foot-grid h2{font-size:15px;font-stretch:100%;color:#fff;margin-bottom:10px;letter-spacing:0}
+  .foot-grid p{line-height:1.75}
+  .foot-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:24px;font-size:13.5px}
+  .foot-bottom a{display:inline-block;padding:10px 0;margin:-10px 0;text-underline-offset:3px}
+  .foot-bottom a:hover{color:#fff}
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width:1100px){
+    .creds ul{grid-template-columns:repeat(2,1fr)}
+    .creds li:nth-child(3){padding-left:0;border-left:none}
+    .creds li:nth-child(n+3){border-top:1px solid var(--rule)}
+    .steps{grid-template-columns:repeat(2,1fr);gap:40px 32px}
+    .steps li{padding-right:0}
+    .sector-list{grid-template-columns:repeat(2,1fr);border-top:none}
+    .sector-list li,.sector-list li + li{padding:24px 24px 24px 0;border-left:none;border-top:1px solid var(--rule)}
+  }
+  @media (max-width:900px){
+    :root{--nav-h:72px}
+    .logo img{height:46px}
+    .nav-toggle{
+      display:inline-flex;align-items:center;justify-content:center;margin-left:auto;
+      width:44px;height:44px;border-radius:4px;background:transparent;color:#fff;border:1px solid rgba(255,255,255,.3);cursor:pointer;
+    }
+    .nav-links{
+      display:none;position:absolute;top:var(--nav-h);left:0;right:0;margin:0;flex-direction:column;gap:0;
+      padding:8px var(--gut) 24px;background:var(--night);border-bottom:1px solid rgba(255,255,255,.1);
+    }
+    .nav-links a{font-size:18px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+    .nav.open .nav-links{display:flex}
+    .sec-head,.compare-head,.contact-inner,.foot-grid,.faq-inner{grid-template-columns:1fr;gap:24px}
+    .service{grid-template-columns:1fr;gap:28px;padding-block:40px}
+    .compare{aspect-ratio:4/3}
+    .gal{gap:32px 16px}
+    .g1,.g2,.g5{grid-column:span 12}
+    .g3,.g4{grid-column:span 6}
+    .samples ul{grid-template-columns:1fr;gap:28px}
+  }
+  @media (max-width:640px){
+    body{font-size:16.5px}
+    .hero{min-height:calc(100svh - var(--nav-h));--scan:58%}
+    .hero::after{background:linear-gradient(0deg,rgba(11,20,36,.94) 0%,rgba(11,20,36,.7) 45%,rgba(11,20,36,.15) 80%)}
+    .hero-content{padding-block:96px 40px}
+    .hero h1{font-size:clamp(22px,7.4vw,40px)}
+    .hero-actions .btn{flex:1 1 100%}
+    .hero-geo{display:none}
+    .scan-tag{top:16px}
+    .creds li,.creds li + li{padding:22px 12px 22px 0}
+    .creds li:nth-child(even){padding-left:16px}
+    .creds strong{font-size:24px}
+    .services,.process{padding-block:80px 48px}
+    .compare-sec,.contact{padding-block:80px}
+    .examples{padding-bottom:80px}
+    .sec-head{margin-bottom:32px}
+    .steps{grid-template-columns:1fr;gap:32px}
+    .sectors{padding-block:80px}
+    .faq{padding-block:80px}
+    .sector-list{grid-template-columns:1fr}
+    .faq summary{font-size:17px}
+    .figures{gap:32px}
+    .g3,.g4{grid-column:span 12}
+    .ways a,.ways .row{flex-direction:column;align-items:flex-start;gap:4px}
+    .ways .v{text-align:left}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .hero.sweep{animation:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+
+<!-- Filtri SVG: simulano la vista termica (palette "iron") e il modello altimetrico sulle foto RGB -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="f-thermal" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="-.3 -.59 -.11 0 1  -.3 -.59 -.11 0 1  -.3 -.59 -.11 0 1  0 0 0 1 0"/><feComponentTransfer><feFuncR type="gamma" amplitude="1" exponent="1.5" offset="0"/><feFuncG type="gamma" amplitude="1" exponent="1.5" offset="0"/><feFuncB type="gamma" amplitude="1" exponent="1.5" offset="0"/></feComponentTransfer><feComponentTransfer><feFuncR type="table" tableValues="0.02 0.28 0.72 0.94 1 1"/><feFuncG type="table" tableValues="0 0 0.08 0.42 0.78 0.98"/><feFuncB type="table" tableValues="0.12 0.5 0.48 0.06 0.16 0.8"/></feComponentTransfer></filter><filter id="f-thermal-roof" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values=".45 .45 .1 0 0  .45 .45 .1 0 0  .45 .45 .1 0 0  0 0 0 1 0"/><feComponentTransfer><feFuncR type="table" tableValues="0.02 0.28 0.72 0.94 1 1"/><feFuncG type="table" tableValues="0 0 0.08 0.42 0.78 0.98"/><feFuncB type="table" tableValues="0.12 0.5 0.48 0.06 0.16 0.8"/></feComponentTransfer></filter><filter id="f-dsm" color-interpolation-filters="sRGB"><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncR type="table" tableValues="0.08 0.05 0.25 0.95 0.85"/><feFuncG type="table" tableValues="0.18 0.55 0.75 0.85 0.25"/><feFuncB type="table" tableValues="0.55 0.75 0.35 0.2 0.15"/></feComponentTransfer></filter></defs></svg>
+
+<nav class="nav" aria-label="Principale">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo"><img src="assets/logo-white.webp" width="440" height="138" alt="Nevaproject — torna all'inizio"></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Apri il menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <div class="nav-links" id="nav-links">
+      <a href="#servizi">Servizi</a>
+      <a href="#metodo">Come lavoriamo</a>
+      <a href="#esempi">Esempi</a>
+      <a href="#contatti">Contatti</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero sweep" id="top">
+  <img class="hero-img" src="assets/img/hero-fv-1600.webp" srcset="assets/img/hero-fv-800.webp 800w, assets/img/hero-fv-1600.webp 1600w, assets/img/hero-fv-2400.webp 2400w" sizes="100vw" width="1600" height="1200" fetchpriority="high" alt="Impianto fotovoltaico a terra ripreso dal drone">
+  <img class="hero-img ir" src="assets/img/hero-fv-1600.webp" srcset="assets/img/hero-fv-800.webp 800w, assets/img/hero-fv-1600.webp 1600w, assets/img/hero-fv-2400.webp 2400w" sizes="100vw" width="1600" height="1200" alt="" aria-hidden="true">
+  <span class="scan-edge l" aria-hidden="true"></span><span class="scan-edge r" aria-hidden="true"></span>
+  <span class="scan-tag" aria-hidden="true">Vista termica</span>
+  <div class="wrap hero-content">
+    <h1><span class="hero-kicker">Termografia, fotogrammetria e ispezioni con drone</span>Dall'alto, con metodo.</h1>
+    <p class="hero-sub">Rilievi tecnici affidabili in tutta Italia, consegnati pronti all'uso.</p>
+    <div class="hero-actions">
+      <a href="#contatti" class="btn btn-light">Richiedi un preventivo</a>
+      <a href="https://wa.me/393931110149" class="btn btn-line" rel="noopener">WhatsApp <span class="num">393 111 0149</span></a>
+    </div>
+  </div>
+  <p class="hero-geo">Base in provincia di Milano<br>Operiamo in tutta Italia</p>
+</header>
+
+<main id="main">
+
+<section class="creds" aria-label="Nevaproject in numeri">
+  <div class="wrap">
+    <ul>
+      <li><strong class="num">10 anni</strong>di rilievi con drone</li>
+      <li><strong class="num">Oltre 3.000</strong>impianti rilevati</li>
+      <li><strong class="num">Oltre 2 GW</strong>di potenza ispezionata</li>
+      <li><strong class="num">Oltre 4.000</strong>ettari sorvolati in tutta Italia</li>
+    </ul>
+  </div>
+</section>
+
+<section id="servizi" class="services" aria-labelledby="servizi-t">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="servizi-t">Tre servizi, una sola missione: darti dati affidabili.</h2>
+      <p class="lede">Acquisiamo dati dall'alto e li trasformiamo in informazioni utili per chi deve decidere, progettare o fare manutenzione.</p>
+    </div>
+
+    <article class="service">
+      <figure><img class="thermal" src="assets/img/fv-file-800.webp" srcset="assets/img/fv-file-800.webp 800w, assets/img/fv-file-1600.webp 1600w" sizes="(max-width:900px) 100vw, 45vw" width="800" height="450" loading="lazy" decoding="async" alt="File di pannelli fotovoltaici in vista termica"></figure>
+      <div>
+        <p class="kind">Termografia</p>
+        <h3>Termografia aerea</h3>
+        <p>Ispezioni termografiche radiometriche di coperture, impianti fotovoltaici e involucri edilizi. Individuiamo dispersioni, infiltrazioni e celle difettose.</p>
+        <ul class="deliver" aria-label="Cosa ricevi">
+          <li>Termogrammi radiometrici</li><li>Mappa delle anomalie</li><li>Report tecnico</li>
+        </ul>
+        <a class="more" href="#contatti">Richiedi un'ispezione termografica</a>
+      </div>
+      <div class="samples">
+        <p class="samples-t">Cosa ricevi, in pratica</p>
+        <ul>
+          <li><a href="assets/img/esempio-termogramma-965.webp" data-lb><img src="assets/img/esempio-termogramma-600.webp" width="600" height="376" loading="lazy" decoding="async" alt="Termogramma radiometrico di moduli fotovoltaici con scala delle temperature e una cella in surriscaldamento a 52,9 °C"></a><p><b>Termogramma radiometrico</b>Temperatura misurata in ogni punto, con scala e anomalia evidenziata.</p></li>
+          <li><a href="assets/img/esempio-mappa-anomalie-1600.webp" data-lb><img src="assets/img/esempio-mappa-anomalie-800.webp" width="800" height="500" loading="lazy" decoding="async" alt="Mappa delle anomalie di un impianto fotovoltaico: moduli difettosi segnati per tipo, con legenda e priorità di intervento"></a><p><b>Mappa delle anomalie</b>Ogni difetto sulla planimetria, per tipo e priorità di intervento.</p></li>
+          <li><a href="assets/img/esempio-report-1240.webp" data-lb><img src="assets/img/esempio-report-620.webp" width="620" height="877" loading="lazy" decoding="async" alt="Pagina di sintesi di un report di ispezione termografica: dati del rilievo, numero di anomalie e tabella di dettaglio"></a><p><b>Report tecnico</b>Sintesi, tabella delle anomalie e interventi consigliati.</p></li>
+        </ul>
+        <p class="samples-note">Mappa e report: esempi con dati dimostrativi. Termogramma: Lutz Weidner, <a href="https://commons.wikimedia.org/wiki/File:Photovoltaik.jpg" rel="noopener">Wikimedia Commons</a>, licenza <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.it" rel="noopener">CC BY-SA 3.0</a>.</p>
+      </div>
+    </article>
+
+    <article class="service">
+      <figure><img src="assets/img/cava-zenitale-800.webp" srcset="assets/img/cava-zenitale-800.webp 800w, assets/img/cava-zenitale-1600.webp 1600w" sizes="(max-width:900px) 100vw, 45vw" width="800" height="450" loading="lazy" decoding="async" alt="Cava ripresa in verticale dal drone"></figure>
+      <div>
+        <p class="kind">Fotogrammetria</p>
+        <h3>Rilievi fotogrammetrici</h3>
+        <p>Ortofoto, modelli 3D, nuvole di punti e calcolo delle volumetrie con precisione centimetrica, consegnati nel formato che ti serve per CAD, BIM e GIS.</p>
+        <ul class="deliver" aria-label="Cosa ricevi">
+          <li>Ortofoto</li><li>Modello 3D</li><li>Nuvola di punti</li><li>Volumetrie</li>
+        </ul>
+        <a class="more" href="#contatti">Richiedi un rilievo</a>
+      </div>
+    </article>
+
+    <article class="service">
+      <figure><img src="assets/img/tetti-zenitale-800.webp" srcset="assets/img/tetti-zenitale-800.webp 800w, assets/img/tetti-zenitale-1600.webp 1600w" sizes="(max-width:900px) 100vw, 45vw" width="800" height="600" loading="lazy" decoding="async" alt="Coperture in coppi viste dall'alto"></figure>
+      <div>
+        <p class="kind">Ispezioni</p>
+        <h3>Ispezioni tecniche</h3>
+        <p>Tetti, facciate, ciminiere, ponti e tralicci, senza ponteggi né piattaforme. Report fotografici dettagliati con la mappatura delle anomalie.</p>
+        <ul class="deliver" aria-label="Cosa ricevi">
+          <li>Foto ad alta risoluzione</li><li>Mappatura anomalie</li><li>Report fotografico</li>
+        </ul>
+        <a class="more" href="#contatti">Prenota un sopralluogo</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="compare-sec" aria-labelledby="confronto-t">
+  <div class="wrap">
+    <div class="compare-head">
+      <div>
+        <h2 id="confronto-t">RGB e termico, nello stesso volo.</h2>
+        <div class="figures">
+          <div><b class="num">≤ 1 cm</b>GSD in fotogrammetria</div>
+          <div><b class="num">± 2 °C</b>Accuratezza termica</div>
+        </div>
+      </div>
+      <p class="lede">Ogni missione può combinare sensore visivo ad alta risoluzione e termocamera radiometrica: vedi, e misuri, ciò che conta. Trascina il cursore per confrontare le due viste.</p>
+    </div>
+    <div class="compare">
+      <img class="thermal" src="assets/img/centrale-fv-800.webp" srcset="assets/img/centrale-fv-800.webp 800w, assets/img/centrale-fv-1600.webp 1600w" sizes="(max-width:1280px) 100vw, 1150px" width="800" height="533" loading="lazy" decoding="async" alt="Centrale fotovoltaica vista con la termocamera">
+      <img class="rgb" src="assets/img/centrale-fv-800.webp" srcset="assets/img/centrale-fv-800.webp 800w, assets/img/centrale-fv-1600.webp 1600w" sizes="(max-width:1280px) 100vw, 1150px" width="800" height="533" loading="lazy" decoding="async" alt="La stessa centrale fotovoltaica in foto RGB">
+      <input type="range" min="0" max="100" value="50" aria-label="Sposta il confine tra vista termica e vista RGB">
+      <div class="compare-sep"><span class="compare-knob"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div>
+      <span class="lbl l">Termico</span>
+      <span class="lbl r">RGB</span>
+    </div>
+  </div>
+</section>
+
+<section class="sectors" aria-labelledby="settori-t">
+  <div class="wrap">
+    <h2 id="settori-t">A chi serve.</h2>
+    <ul class="sector-list">
+      <li><h3>Energia e fotovoltaico</h3><p>Termografia di impianti a terra e su copertura, ricerca di celle e stringhe difettose.</p></li>
+      <li><h3>Edilizia e cantieri</h3><p>Ortofoto di avanzamento, ispezioni di coperture e facciate senza ponteggi.</p></li>
+      <li><h3>Cave e movimento terra</h3><p>Modelli altimetrici e calcolo dei volumi di scavi e cumuli.</p></li>
+      <li><h3>Studi tecnici e ingegneri</h3><p>Rilievi georeferenziati pronti per CAD, BIM e GIS.</p></li>
+      <li><h3>Enti pubblici</h3><p>Documentazione di edifici, infrastrutture e territorio.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section id="metodo" class="process" aria-labelledby="metodo-t">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="metodo-t">Come lavoriamo.</h2>
+      <p class="lede">Dal primo contatto alla consegna, ogni passaggio è pianificato. Tu pensi al progetto, noi al volo.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Sopralluogo e piano di volo</h3><p>Definiamo area, obiettivi, sensori e precisione richiesta.</p></li>
+      <li><h3>Autorizzazioni</h3><p>Verifiche su D-Flight, dichiarazioni operative e coordinamento con ENAV quando serve.</p></li>
+      <li><h3>Volo</h3><p>Acquisizione con georeferenziazione RTK/PPK e punti di controllo a terra.</p></li>
+      <li><h3>Elaborazione</h3><p>Ortofoto, modelli, termogrammi e analisi delle anomalie.</p></li>
+      <li><h3>Consegna</h3><p>Report e file nei formati del tuo flusso di lavoro, nei tempi fissati nel preventivo.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ESEMPI: foto segnaposto. Quando arrivano le foto reali delle missioni,
+     sostituire i file in assets/img/ e rinominare la sezione "I nostri lavori". -->
+<section id="esempi" class="examples" aria-labelledby="esempi-t">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="esempi-t">Cosa consegniamo.</h2>
+      <p class="lede">Esempi dei risultati che riceve il cliente: mappe termiche, ortofoto, modelli digitali e riprese di cantiere.</p>
+    </div>
+    <div class="gal">
+      <figure class="g1"><div class="ph"><img src="assets/img/cantiere-zenitale-1600.webp" width="1600" height="900" loading="lazy" decoding="async" alt="Cantiere edile ripreso in verticale"></div><figcaption>Ortofoto di cantiere<span>Avanzamento lavori misurabile, volo dopo volo</span></figcaption></figure>
+      <figure class="g2"><div class="ph"><img class="thermal-roof" src="assets/img/centro-storico-800.webp" width="800" height="600" loading="lazy" decoding="async" alt="Tetti di un centro storico con mappa termica"></div><figcaption>Termografia di coperture<span>Dispersioni e infiltrazioni su tetti in coppi</span></figcaption></figure>
+      <figure class="g3"><div class="ph"><img class="dsm" src="assets/img/cava-zenitale-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="Modello digitale delle superfici di una cava con scala altimetrica a colori"></div><figcaption>DSM e volumetrie<span>Modello altimetrico per il calcolo dei volumi</span></figcaption></figure>
+      <figure class="g4"><div class="ph"><img src="assets/img/cava-lago-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="Cava con lago vista dall'alto"></div><figcaption>Rilievo di cava<span>Fronti di scavo e specchi d'acqua</span></figcaption></figure>
+      <figure class="g5"><div class="ph"><img src="assets/img/cantiere-obliquo-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="Edificio in costruzione con gru, ripreso in obliquo"></div><figcaption>Riprese oblique<span>Documentazione fotografica di edifici e strutture</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faq" aria-labelledby="faq-t">
+  <div class="wrap faq-inner">
+    <h2 id="faq-t">Domande frequenti.</h2>
+    <div class="faq-list">
+      <details>
+        <summary>Serve un'autorizzazione per far volare il drone sul mio sito?</summary>
+        <p>Dipende dall'area e dal tipo di operazione. Verifichiamo noi su D-Flight vincoli e zone geografiche, presentiamo le dichiarazioni necessarie e, se serve, ci coordiniamo con ENAV. Tu non devi occuparti di nulla.</p>
+      </details>
+      <details>
+        <summary>In che condizioni si può fare una termografia?</summary>
+        <p>La termografia richiede condizioni precise: per gli impianti fotovoltaici serve cielo sereno e un irraggiamento sufficiente, per gli edifici una differenza di temperatura tra interno ed esterno. Pianifichiamo il volo nella finestra meteo giusta.</p>
+      </details>
+      <details>
+        <summary>In che formato ricevo i dati?</summary>
+        <p>In qualsiasi formato ti serva: ortofoto e modelli altimetrici georeferenziati, nuvole di punti e modelli 3D per CAD, BIM e GIS, termogrammi radiometrici, report in PDF. Lo concordiamo prima del volo.</p>
+      </details>
+      <details>
+        <summary>Con quale attrezzatura lavorate?</summary>
+        <p>Voliamo con camera RGB ad alta risoluzione e termocamera radiometrica, e abbiamo disponibilità di mezzi e sensori per qualsiasi lavoro di termografia, fotogrammetria e ispezione. Scegliamo l'attrezzatura in base al rilievo.</p>
+      </details>
+      <details>
+        <summary>Quanto tempo serve per avere i risultati?</summary>
+        <p>Dipende dall'estensione dell'area e dal tipo di elaborazione. Date di volo e di consegna sono scritte nel preventivo.</p>
+      </details>
+      <details>
+        <summary>Dove operate?</summary>
+        <p>In tutta Italia. La nostra base è in provincia di Milano e ci spostiamo dove si trova il tuo sito.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="contatti" class="contact" aria-labelledby="contatti-t">
+  <div class="wrap contact-inner">
+    <div>
+      <h2 id="contatti-t">Parliamone.</h2>
+      <p class="lede">Raccontaci il tuo progetto: dove si trova, cosa devi rilevare e per quando ti servono i dati. Ti rispondiamo con un preventivo chiaro e una pianificazione concreta.</p>
+    </div>
+    <address class="ways">
+      <a href="tel:+393931110149"><span class="k">Telefono</span><span class="v num">+39 393 111 0149</span></a>
+      <a href="mailto:info@nevaproject.it?subject=Richiesta%20preventivo%20rilievo%20drone"><span class="k">Email</span><span class="v">info@nevaproject.it</span></a>
+      <a href="https://wa.me/393931110149" rel="noopener"><span class="k">WhatsApp</span><span class="v num">+39 393 111 0149</span></a>
+      <span class="row"><span class="k">Sede</span><span class="v">Via E. Villoresi 47, Corbetta (MI)</span></span>
+    </address>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img src="assets/logo-white.webp" width="440" height="138" loading="lazy" alt="Nevaproject">
+        <p>Termografia, fotogrammetria e ispezioni con drone.<br>Operatore UAS registrato ENAC.</p>
+      </div>
+      <div>
+        <h2>Sede legale</h2>
+        <p>Via Eugenio Villoresi, 47<br>20011 Corbetta (MI), Italia</p>
+      </div>
+      <div>
+        <h2>Dati fiscali</h2>
+        <p>Nevaproject di Francesco Fabbri<br>P.IVA 11216430964 · SDI SUBM70N</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="y">2026</span> Nevaproject. Tutti i diritti riservati.</span>
+      <a href="privacy.html">Privacy, cookie e note legali</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Menu mobile
+  (function(){
+    var nav=document.querySelector('.nav'), btn=nav.querySelector('.nav-toggle');
+    function set(open){nav.classList.toggle('open',open);btn.setAttribute('aria-expanded',open);btn.setAttribute('aria-label',open?'Chiudi il menu':'Apri il menu');}
+    btn.addEventListener('click',function(){set(!nav.classList.contains('open'))});
+    nav.querySelectorAll('.nav-links a').forEach(function(a){a.addEventListener('click',function(){set(false)})});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});
+  })();
+  // Hero: dopo la scansione iniziale la banda termica segue il puntatore (solo con mouse)
+  (function(){
+    var hero=document.querySelector('.hero');
+    if(!matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+    function follow(){
+      hero.classList.remove('sweep');
+      hero.addEventListener('pointermove',function(e){
+        var r=hero.getBoundingClientRect();
+        hero.style.setProperty('--scan',Math.round((e.clientX-r.left)/r.width*100)+'%');
+      });
+    }
+    if(matchMedia('(prefers-reduced-motion:reduce)').matches) follow();
+    else hero.addEventListener('animationend',follow,{once:true});
+  })();
+  // Confronto termico / RGB
+  document.querySelectorAll('.compare').forEach(function(c){
+    var r=c.querySelector('input');
+    r.addEventListener('input',function(){c.style.setProperty('--pos',r.value+'%')});
+  });
+  // Esempi di consegna: ingrandimento
+  (function(){
+    var links=document.querySelectorAll('[data-lb]');
+    if(!links.length||!window.HTMLDialogElement) return;
+    var d=document.createElement('dialog');d.className='lb';
+    d.innerHTML='<img alt=""><button type="button" aria-label="Chiudi">&times;</button>';
+    document.body.appendChild(d);
+    var img=d.querySelector('img');
+    d.querySelector('button').addEventListener('click',function(){d.close()});
+    d.addEventListener('click',function(e){if(e.target===d)d.close()});
+    links.forEach(function(a){a.addEventListener('click',function(e){
+      e.preventDefault();img.src=a.getAttribute('href');img.alt=a.querySelector('img').alt;d.showModal();
+    })});
+  })();
+  document.getElementById('y').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
