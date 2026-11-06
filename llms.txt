@@ -1,6 +1,6 @@
 # Nevaproject
 
-> Rilievi tecnici con drone in tutta Italia: termografia radiometrica di impianti fotovoltaici e coperture, fotogrammetria (ortofoto, modelli 3D, nuvole di punti, volumetrie) e ispezioni tecniche di tetti, facciate e strutture. Operatore UAS registrato ENAC, base in provincia di Milano.
+> Rilievi tecnici con drone in tutta Italia: termografia radiometrica di impianti fotovoltaici e coperture, fotogrammetria (ortofoto, modelli 3D, nuvole di punti, volumetrie) e ispezioni tecniche di tetti, facciate e strutture. Operatore UAS registrato ENAC, pilota con attestato A2 e abilitato alla categoria Specific (scenari standard STS), base in provincia di Milano.
 
 - 10 anni di rilievi con drone, oltre 3.000 impianti rilevati, oltre 2 GW di potenza fotovoltaica ispezionata, oltre 4.000 ettari sorvolati.
 - Clienti tipici: energia e fotovoltaico (O&M, EPC, asset manager), edilizia e cantieri, cave e movimento terra, studi tecnici e ingegneri, enti pubblici.
