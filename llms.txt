@@ -1,11 +1,24 @@
 # Nevaproject
 
-> Rilievi tecnici con drone in tutta Italia: termografia radiometrica di impianti fotovoltaici, fotogrammetria (ortofoto, modelli 3D, nuvole di punti, volumetrie) e ispezioni tecniche di tetti, facciate e strutture. Operatore UAS registrato ENAC, pilota con attestato A2 e abilitato alla categoria Specific (scenari standard STS), base in provincia di Milano.
+> Rilievi tecnici con drone in tutta Italia: termografia radiometrica di impianti fotovoltaici, fotogrammetria (ortofoto, modelli 3D, nuvole di punti, volumetrie) e ispezioni di tetti, facciate e strutture. Operatore UAS registrato ENAC, pilota con attestato A2 e abilitato alla categoria Specific (scenari standard STS). Base a Corbetta, in provincia di Milano.
 
+- Titolare: Francesco Fabbri. Sede: Via Eugenio Villoresi 47, 20011 Corbetta (MI). P. IVA IT11216430964.
 - 10 anni di rilievi con drone, oltre 3.000 impianti rilevati, oltre 2 GW di potenza fotovoltaica ispezionata, oltre 4.000 ettari sorvolati.
-- Clienti tipici: energia e fotovoltaico (O&M, EPC, asset manager), edilizia e cantieri, cave e movimento terra, studi tecnici e ingegneri, enti pubblici.
+- Clienti tipici: energia e fotovoltaico (O&M, EPC, asset manager), edilizia e cantieri, cave e movimento terra, studi tecnici e ingegneri, enti pubblici, amministratori di condominio e privati.
 - Consegne: termogrammi radiometrici, mappa delle anomalie, report tecnico, ortofoto e modelli georeferenziati in qualsiasi formato (CAD, BIM, GIS).
-- Preventivo su richiesta. Contatti: info@nevaproject.it, telefono e WhatsApp +39 393 111 0149.
+- Contatti: info@nevaproject.it, telefono e WhatsApp +39 393 111 0149. Risposta via email entro 24 ore nei giorni feriali.
+
+## Ispezioni dall'alto (case, condomini, imprese)
+
+Foto e video con drone di tetti, grondaie, coperture in eternit e facciate, e documentazione dei danni da maltempo per l'assicurazione. Il volo si fa da terra: nessuno sale sul tetto. Prezzi di partenza, IVA non applicata (regime forfettario):
+
+- Grondaia Express: 80 €, case uni e bifamiliari entro 30 km dalla base, consegna delle foto sul posto.
+- Controllo tetto di una villetta: da 190 €, con foto, video e scheda di una pagina.
+- Danni da maltempo (vento, grandine, neve, mareggiate) su una casa: da 220 €. Foto e video con data, ora e posizione GPS da allegare alla denuncia; consegna entro 24 ore dal volo. Non è una perizia: la stima del danno la fa il perito dell'assicurazione.
+- Rilievo di una copertura in amianto/eternit: da 250 €. Foto ravvicinate di ogni falda e superfici misurate, per il tecnico che compila l'Indice di Degrado. Solo rilievo fotografico con drone.
+- Condomini, capannoni, più coperture, facciate e rilievi con drone RTK: preventivo gratuito.
+- Trasferta inclusa fino a 60 km dalla base; oltre, su preventivo. Rinvio gratuito se piove o c'è troppo vento.
+- Ogni lavoro è verificato prima sulle zone di volo D-Flight e secondo le regole ENAC; dove serve un'autorizzazione la chiede Nevaproject.
 
 ## Pagine
 
@@ -16,5 +29,5 @@
 - [Tetti, grondaie e camini](https://nevaproject.it/ispezioni/tetti-grondaie-camini/)
 - [Rilievi e misure con drone RTK](https://nevaproject.it/ispezioni/rilievi-misure/)
 - [Facciate senza ponteggi](https://nevaproject.it/ispezioni/facciate/)
-- [Guida gratuita: cosa fotografare per l'assicurazione](https://nevaproject.it/ispezioni/guida-foto-assicurazione/)
+- [Guida gratuita: cosa fotografare per l'assicurazione dopo il maltempo](https://nevaproject.it/ispezioni/guida-foto-assicurazione/)
 - [Privacy, cookie e note legali](https://nevaproject.it/privacy.html)
